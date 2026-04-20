@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- =====DEVICON (Untuk logi spesifik seperti Laravel) ===== -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+
+    <title>Wisik's Portofolio</title>
+</head>
+
+<body>
+    <!--===== PARTICLES BACKGROUND =====-->
+    <div id="tsparticles"></div>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><span style="color: var(--first-color);"></span></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title"><span class="auto-type"></span></h1>
+                <p class="home__description">A passionate developer exploring the digital world through elegant and
+                    scalable web solutions.</p>
+                <a href="#about" class="button">Discover More</a>
+            </div>
+        </section>
+
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/aboutme.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Hi there, I'am Agustinus <span class="home__title-color">Wisik</span>
+                        Widhi Cahyo Puspo Suseno</h2>
+                    <p class="about__text">An Informatics student focusing on developing scalable web solutions and
+                        implementing machine learning algorithms.
+                        Strong leadership experience in managing teams and logistics, which has shaped my
+                        problem-solving and collaboration skills. Currently actively learning Java, HTML, CSS, Python,
+                        PHP, JavaScript, SQL, and Laravel framework.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <div class="skills__header bd-grid">
+                <h2 class="section-title">Skills</h2>
+                <p class="skills__description">Programming language and tools I've been learning</p>
+            </div>
+
+            <div class="skills__grid bd-grid">
+                <div class="skills__box">
+                    <i class='bx bxl-java skills__box-icon'></i>
+                    <h3 class="skills__box-title">Java</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bxl-python skills__box-icon'></i>
+                    <h3 class="skills__box-title">Python</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bx-code-alt skills__box-icon'></i>
+                    <h3 class="skills__box-title">HTML / CSS</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bxl-javascript skills__box-icon'></i>
+                    <h3 class="skills__box-title">JavaScript</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bxl-php skills__box-icon'></i>
+                    <h3 class="skills__box-title">PHP</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bxl-c-plus-plus skills__box-icon'></i>
+                    <h3 class="skills__box-title">C++</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bx-data skills__box-icon'></i>
+                    <h3 class="skills__box-title">SQL & Oracle Database</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='devicon-laravel-plain skills__box-icon'></i>
+                    <h3 class="skills__box-title">Laravel</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bx-terminal skills__box-icon'></i>
+                    <h3 class="skills__box-title">Linux (Mint)</h3>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bx-window-alt skills__box-icon'></i>
+                    <h3 class="skills__box-title">Visual Studio Code</h3>
+                </div>
+                <!-- <div class="skills__box">
+                    <i class="fa-brands fa-microsoft skills__box-icon"></i>
+                    <h3 class="skills__box-title">Visual Studio Code</h3>
+                </div> -->
+                <div class="skills__box">
+                    <i class='bx bxl-github skills__box-icon'></i>
+                    <h3 class="skills__box-title">Github</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+                <!-- Project 1 (Tali.id) -->
+                <div class="work__item">
+                    <div class="work__img">
+                        <img src="assets/img/project1.png" alt="Tali.id Project">
+                    </div>
+                    <div>
+                        <h3 class="work__title">E-Commerce Website: Tali.id</h3>
+                        <p class="work__description">A website that provides a wide variety of shoelace and its
+                            decorations with a modern style and check out system. Features interactive UI and robust
+                            checkout options.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Culinary) -->
+                <div class="work__item">
+                    <div class="work__img">
+                        <img src="assets/img/project2.png" alt="Culinary Web">
+                    </div>
+                    <div>
+                        <h3 class="work__title">Indonesian Culinary Web</h3>
+                        <p class="work__description">A website that displays various typical Indonesian foods and their
+                            respective unique characteristics. Focuses on great user experience and immersive imagery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== FOOTER AND CONTACT =====-->
+        <footer class="footer">
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+
+                    <a href="https://github.com/Wisik28" class="contact__item">
+                        <i class="bx bxl-github"></i>
+                        <span>Github</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/agustinus-wisik-widhi-cahyo-puspo-suseno-835b7b309/"
+                        class="contact__item">
+                        <i class="bx bxl-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/agustinuswisik?igsh=MXdiYmVhMGRpbHA1Mw==" class="contact__item">
+                        <i class="bx bxl-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+
+                    <a href="https://wa.me/6281248946053" class="contact__item" target="_blank">
+                        <i class="bx bxl-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+
+                </div>
+            </section>
+        </footer>
+
+        <!-- include CDL box icon -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
