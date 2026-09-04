@@ -607,7 +607,9 @@ img {
 
 .projects__image {
   flex: 1;
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,6 +716,12 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .projects__image {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .projects__main-title {
