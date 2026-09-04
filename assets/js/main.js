@@ -178,3 +178,31 @@ if (document.getElementById('tsparticles')) {
         if (homeSection) observer.observe(homeSection);
     });
 }
+
+/*===== PROJECTS SWIPER SLIDER =====*/
+if (document.querySelector('.projects-swiper')) {
+    const projectsSwiper = new Swiper('.projects-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoHeight: true,
+        grabCursor: true,
+        speed: 600,
+        mousewheel: {
+            forceToAxis: true,
+            releaseOnEdges: true
+        },
+        keyboard: {
+            enabled: true,
+        },
+        navigation: {
+            nextEl: '.proj-next-btn',
+            prevEl: '.proj-prev-btn',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+}
+
